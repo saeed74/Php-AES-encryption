@@ -1,0 +1,190 @@
+  
+@font-face{
+    font-family:'iransans';
+    font-weight: 300;
+    src:url('./font/sans_normal.woff2') format('woff2'),
+    url('./font/sans_normal.woff') format('woff');
+}
+@font-face{
+    font-family:'iransans';
+    font-weight: 600;
+    src:url('./font/sans_bold.woff2') format('woff2'),
+    url('./font/sans_bold.woff') format('woff');
+}
+
+
+
+body {
+	font-family: iransans;
+	font-size: 16px;
+	line-height: 28px;
+    color: #48474d;
+    direction: rtl;
+	overflow-x: hidden
+}
+
+.paymentbox{
+    text-align: center;
+}
+
+.rightbox{
+    display: inline-block;
+    width: 45%;
+}
+
+.leftbox{
+    display: inline-block;
+    width: 45%;
+}
+
+.box{
+    background: #f8f8f8;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #b7cde9;
+    margin: 5px;
+}
+
+.textareas{
+    width: 70%;
+}
+
+
+
+.inputs{
+    direction: ltr;
+}
+
+.statusnok{
+    font-weight: 600;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 1.1em;
+    border-radius: 30px;
+    background: #faf8f8;
+    border: 1px solid #b45f7e;
+    color: #c01010;
+    margin-top: 20px;
+}
+
+.statusok{
+    font-weight: 600;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 1.1em;
+    border-radius: 30px;
+    background: #f8faf9;
+    border: 1px solid #5fb474;
+    color: #08974f;
+    margin-top: 20px;
+}
+
+.desc{
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+.backbtn {
+    text-decoration: none;
+    color: #fff;
+    background: #1150c2;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+
+.tracking {
+    margin-top: 15px;
+}
+
+.descred{
+    font-size: 0.9em;
+    margin-top: 20px;
+    line-height: 25px;
+    color: #992e2e;
+}
+
+.appname{
+    font-weight: 600;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+
+.reason {
+    margin-top: 15px;
+    color: #950909;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bazaar_init.php styles  */
+
+.bazaarbox{
+    display: inline-block;
+    min-width: 400px;
+    margin-top: 15px;
+    background: #f2f5f6;
+    border-radius: 20px;
+    padding: 20px 20px;
+    direction: ltr;
+}
+
+.bazaarbox .inp {
+    width: 90%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.bazaarinit{
+    text-align: center;
+}
+
+.btn {
+    font-family: iransans;
+    padding: 5px 35px;
+    margin-bottom: 20px;
+    color: #fff;
+    background: #0b58cc;
+    border: none;
+    border-radius: 3px;
+    direction: ltr;
+    font-size: 15px;
+}
